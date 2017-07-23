@@ -1,5 +1,6 @@
 class Item(object):
     """Describes a single item from the item book, has the following attributes:
+        Form
         Old recipe code
         New recipe code
         Item code
@@ -29,5 +30,4 @@ class Item(object):
 
     def __str__(self):
         return "Item {0}: {1}".format(self.item_code, self.name)
-
 
